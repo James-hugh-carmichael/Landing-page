@@ -1,23 +1,22 @@
 body{
     margin: 0px;
-    padding: 0px;
+
 }
 
-.header{
-    background-color: rgb(18, 17, 26);;
-}
+
 .headercontent{
     display: flex;
     background-color: rgb(18, 17, 26);
     flex-direction: row;
-    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
     justify-content: space-between;
     align-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    gap: 100px;
+   
 }
 .logo{
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     display: flex;
@@ -29,4 +28,99 @@ ul{
     color: white;
     display: flex;
     gap: 30px;
+    font-size: 24px;
+}
+
+.uppercontent{
+    padding: 20px;
+    color: white;
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+.upper-text-title{
+    font-size: 75px;
+}
+
+.image{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   background-color: rgb(99, 99, 243);
+   border: none;
+   color: white;
+   width: 150px;
+   font-size: 20px;
+   border-radius: 10px;
+   height: 30px;
+}
+
+.lowercontent{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+}
+
+.lowercontent-title{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pictureflexgrid{
+    align-self: center;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images{
+    background-color: grey;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+}
+
+.customerquote{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 97, 255);
+    padding: 25px;
+    color: white;
+    width: fit-content;
+    border-radius: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(18, 17, 26);
+    color: white;
+    padding: 50px;
+    font-size: 25px;
 }
